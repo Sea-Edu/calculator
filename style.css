@@ -123,14 +123,14 @@ button#equal {
 
 /* .÷ */
 
-.calculator button.btn-number,
-.calculator button.btn-operator-add{
+.calculator button.button-number,
+.calculator button.button-operator__add{
   background-color: #d9d9d9;
   color: #ffffff;
 }
 
-.calculator button.btn-operator,
-.calculator button.btn-equal {
+.calculator button.button-operator,
+.calculator button.button-equal {
   background-color: #FFB800;
   color: #fff;
 }
@@ -146,12 +146,12 @@ button#equal {
   color: #d9d9d9;
 }
 
-.calculator.dark button.btn-operator,
-.calculator.dark button.btn-equal {
+.calculator.dark button.button-operator,
+.calculator.dark button.button-equal {
   background-color: #FFB800;
   color: #fff;
 }
-.calculator.dark button.btn-number,
+.calculator.dark button.button-number,
 .calculator.dark .dark-add{
     background-color: #6d6d6d;
 }
