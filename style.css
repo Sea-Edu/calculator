@@ -83,7 +83,9 @@ body {
   overflow-x: scroll;
   color: #fff;
 }
-
+button i{
+  font-size: 25px;
+}
 #display::-webkit-scrollbar {
   display: block;
   height: 3px;
@@ -122,15 +124,13 @@ button#equal {
 } */
 
 /* .÷ */
-
-.calculator button.buttons__btn-number,
-.calculator button.buttons__btn-operator__add{
+.wrapper__btn-number,
+.wrapper__btn-secondary{
   background-color: #d9d9d9;
   color: #ffffff;
 }
 
-.calculator button.buttons__btn-operator,
-.calculator button.buttons__btn-equal {
+.wrapper__btn-yellow{
   background-color: #FFB800;
   color: #fff;
 }
@@ -145,14 +145,12 @@ button#equal {
 .calculator.dark #display {
   color: #d9d9d9;
 }
-
-.calculator.dark button.buttons__btn-operator,
-.calculator.dark button.buttons__btn-equal {
+.wrapper__btn-yellow {
   background-color: #FFB800;
   color: #fff;
 }
-.calculator.dark button.buttons__btn-number,
-.calculator.dark .dark-add{
+.wrapper__btn-secondary,
+.wrapper__btn-number{
     background-color: #6d6d6d;
 }
 
